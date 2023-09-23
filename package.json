@@ -1,17 +1,13 @@
 {
-  "name": "afraid-accretion",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "chooserich",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "tailwindcss -i ./dist/css/input.css -o ./dist/css/main.css --watch",
+    "build": "tailwindcss -i ./dist/css/input.css -o ./dist/css/main.css"
   },
-  "dependencies": {
-    "@astrojs/tailwind": "^4.0.0",
-    "astro": "^2.10.7",
-    "tailwindcss": "^3.3.3"
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
