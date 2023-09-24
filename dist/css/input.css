@@ -9,8 +9,6 @@
   src: url(../fonts/cocogoose-pro.regular.ttf);
 }
 
-
-
 .font-cocogoose {
   font-family: "cocogoose", sans-serif;
 }
@@ -156,5 +154,3 @@
     content: "$100";
   }
 }
-
-
